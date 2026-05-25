@@ -4,7 +4,7 @@ import { renderDashboard } from '../src/sections/dashboard.js';
 
 const html = renderApp();
 
-assert.match(html, /Laboratorio de Pull Requests/);
+assert.match(html, /Aprende Pull Requests con un flujo real/);
 assert.match(html, /Practicas disponibles/);
 assert.match(renderDashboard(), /Preparar una release con tag/);
 
