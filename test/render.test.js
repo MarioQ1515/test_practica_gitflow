@@ -4,8 +4,10 @@ import { renderDashboard } from '../src/sections/dashboard.js';
 
 const html = renderApp();
 
-assert.match(html, /Laboratorio colaborativo de GitHub/);
+assert.match(html, /Aprende Pull Requests con un flujo real/);
 assert.match(html, /Practicas disponibles/);
+assert.match(html, /Pull Requests/);
 assert.match(renderDashboard(), /Preparar una release con tag/);
+assert.match(renderDashboard(), /Progreso del laboratorio/);
 
 console.log('All render tests passed.');

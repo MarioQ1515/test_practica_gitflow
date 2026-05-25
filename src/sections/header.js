@@ -1,9 +1,9 @@
 export function renderHeader() {
   return `
     <header class="site-header">
-      <p class="eyebrow">GitFlow Practice</p>
-      <h1>Laboratorio colaborativo de GitHub</h1>
-      <p>Integra partes de una app como equipo usando ramas cortas y revisiones claras.</p>
+      <p class="eyebrow">GitFlow Practice Lab</p>
+      <h1>Aprende Pull Requests con un flujo real</h1>
+      <p>Coordina ramas, revisa cambios y publica releases sin pisar el trabajo del equipo.</p>
     </header>
   `;
 }
