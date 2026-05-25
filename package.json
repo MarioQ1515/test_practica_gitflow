@@ -1,0 +1,10 @@
+{
+  "name": "gitflow-practice-lab",
+  "version": "0.1.0",
+  "description": "Mini app para practicar GitFlow, Pull Requests, reviews y releases.",
+  "type": "module",
+  "scripts": {
+    "test": "node test/render.test.js"
+  },
+  "license": "MIT"
+}
