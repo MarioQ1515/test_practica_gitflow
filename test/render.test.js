@@ -8,5 +8,6 @@ assert.match(html, /Laboratorio de Pull Requests/);
 assert.match(html, /Practicas disponibles/);
 assert.match(html, /Pull Requests/);
 assert.match(renderDashboard(), /Preparar una release con tag/);
+assert.match(renderDashboard(), /Progreso del laboratorio/);
 
 console.log('All render tests passed.');
