@@ -93,5 +93,17 @@ h1 {
 }
 
 .site-footer p {
-  margin-bottom: 0;
+  margin-bottom: 12px;
+}
+
+.site-footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.site-footer a {
+  color: #2b6cb0;
+  font-weight: 700;
+  text-decoration: none;
 }
